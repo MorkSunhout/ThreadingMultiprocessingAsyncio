@@ -3,7 +3,7 @@ import time
 import urllib.request
 
 def simulate_io_task(file_name, duration):
-  url = f'https://github.com/MorkSunhout/ThreadingMultiprocessingAsyncio.git{file_name}'
+  url = f'{file_name}'
   print(f'Downloading {file_name} from {url}', flush=True)
   try:
     time.sleep(duration)
